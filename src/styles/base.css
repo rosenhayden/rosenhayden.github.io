@@ -20,7 +20,6 @@
     --color-card-muted: 80, 73, 69; /* Gruvbox dark grey */
     --color-border: 124, 111, 100; /* Gruvbox medium color */
   }
-}
 
   #sun-svg,
   html[data-theme="dark"] #moon-svg {
