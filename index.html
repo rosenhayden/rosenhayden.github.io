@@ -9,14 +9,20 @@
 </head>
 
 <body>
-    <nav>
-        <a class="logo" href="index.html"><img src="images/logo1.svg" alt=""></a>
-        <a class="n1" href="portfolio.html">Gallery</a>
-        <a class="n2" href="contact.html">Contact</a>
-        <a class="n3" href="projects.html">Portfolio</a>
-        <a class="n4" href="resume.html">Resume</a>
-    </nav>
+    <div class="topnav">
+        <a href="index.html" class="active"><img src="images/logo1.svg" alt=""></a>
+        <div id="myLinks">
 
+            <a class="n1" href="portfolio.html">Gallery</a>
+            <a class="n2" href="contact.html">Contact</a>
+            <a class="n3" href="projects.html">Portfolio</a>
+            <a class="n4" href="resume.html">Resume</a>
+            <a class="n5" href="threejstest.html">Three.js</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="hide()">
+            <i class="fa fa-bars">☰</i>
+        </a>
+    </div>
     <div class="landing-container">
         <div class="left">
             <div class="text-box">
@@ -44,5 +50,6 @@
         </svg>
     </footer>
 </body>
+<script src="js/script.js"></script>
 
 </html>

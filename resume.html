@@ -5,21 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Home</title>
+    <title>Resume</title>
 </head>
 
 <body>
-    <nav>
-        <a class="logo" href="index.html"><img src="images/logo1.svg" alt=""></a>
-        <a class="n1" href="portfolio.html">Gallery</a>
-        <a class="n2" href="contact.html">Contact</a>
-        <a class="n3" href="projects.html">Portfolio</a>
-        <a class="n4" href="resume.html">Resume</a>
-    </nav>
+    <div class="topnav">
+        <a href="index.html" class="active"><img src="images/logo1.svg" alt=""></a>
+        <div id="myLinks">
 
+            <a class="n1" href="portfolio.html">Gallery</a>
+            <a class="n2" href="contact.html">Contact</a>
+            <a class="n3" href="projects.html">Portfolio</a>
+            <a class="n5" href="threejstest.html">Three.js</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="hide()">
+            <i class="fa fa-bars">☰</i>
+        </a>
+    </div>
     <h1 style="margin: 1em; text-align: center; font-size: 4em; color: white;">Resume</h1>
     <div class="img">
-    <img class = "resumesvg" src="images/undraw_programming_re_kg9v.svg" alt="">    
+        <img class="resumesvg" src="images/undraw_programming_re_kg9v.svg" alt="">
     </div>
     <div class="resume">
         <h2>Employment History</h2>
@@ -81,5 +86,7 @@
         </svg>
     </footer>
 </body>
+
+<script src="js/script.js"></script>
 
 </html>

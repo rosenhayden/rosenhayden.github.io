@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>3D</title>
+    <style>
+      body {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="topnav">
+      <a href="index.html" class="active"
+        ><img src="images/logo1.svg" alt=""
+      /></a>
+      <div id="myLinks">
+        <a class="n1" href="portfolio.html">Gallery</a>
+        <a class="n2" href="contact.html">Contact</a>
+        <a class="n3" href="projects.html">Portfolio</a>
+        <a class="n4" href="resume.html">Resume</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="hide()">
+        <i class="fa fa-bars">☰</i>
+      </a>
+    </div>
+    <script type="module" src="js/main.js"></script>
+    <script src="js/script.js"></script>
+<script type="importmap">
+  {
+    "imports": {
+      "three": "https://unpkg.com/three/build/three.module.js",
+      "three/addons/": "https://unpkg.com/three/examples/jsm/"
+    }
+  }
+</script>
+  </body>
+</html>
